@@ -370,35 +370,38 @@ header .btn-group {
     text-align: center;
 }
 
-.sidebar {
-    height: 40%;
-    width: 100%;
-    border-radius: 5%;
-    padding: 3%;
-    position: sticky;
-    top: 0;
-    background-color: #676464ca;
-    overflow-y: auto;
-    transition: 0.3s;
+.navigationLeft {
+    border: 1px solid Red;
+    position: inherit;
 }
 
-.sidebar a {
+
+/* .navigationLeft ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigationLeft li {
+    margin-bottom: 10px;
+}
+
+.navigationLeft a {
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
-    display: block;
-    padding: 0px 10px;
+    /* Link text color */
+
+
+/* display: block;
+} */
+
+
+/* Add hover effect for links */
+
+.navigationLeft a:hover {
+    background-color: #555;
 }
 
-.sidebar a:hover {
-    width: max-content;
-    background-color: #00000093;
-    border-radius: 5px;
-    color: rgb(148, 19, 19);
-    font-size: 20px;
-}
-
-
+*/
 /*-----------------------------------*\ 
     #ASIDE
   \*-----------------------------------*/

@@ -392,10 +392,8 @@ header .btn-group {
 
 .sidebar a:hover {
     width: max-content;
-    background-color: #00000093;
+    background-color: #d75b5b93;
     border-radius: 5px;
-    color: rgb(148, 19, 19);
-    font-size: 20px;
 }
 
 
