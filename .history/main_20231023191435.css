@@ -83,10 +83,12 @@
         line-height: 1.8;
     }
     
-     :focus {
+    :focus {
         outline-offset: 4px;
     }
-    /* scrollbar style*/
+    /**
+   * scrollbar style
+   */
     
      ::-webkit-scrollbar {
         width: 16px;
@@ -347,9 +349,9 @@
     .hero .right {
         display: none;
     }
-    /* -----------------------------------
+    /*-----------------------------------*\ 
     #BLOG SECTION
-  ----------------------------------- */
+  \*-----------------------------------*/
     
     .main {
         background: var(--background-secondary);
@@ -388,16 +390,16 @@
         border-radius: 5px;
         font-size: 20px;
     }
-    /* -----------------------------------
+    /*-----------------------------------*\ 
     #ASIDE
-  ----------------------------------- */
+  \*-----------------------------------*/
     
     .aside {
         display: none;
     }
-    /* -----------------------------------
+    /*-----------------------------------*\ 
     #FOOTER
-  ----------------------------------- */
+  \*-----------------------------------*/
     
     footer {
         background: var(--background-primary);
@@ -456,11 +458,11 @@
     .copyright a:hover {
         text-decoration: underline;
     }
-    /* -----------------------------------
+    /*-----------------------------------*\ 
     #MEDIA QUERIES
-  ----------------------------------- */
-    /*
-    responsive for larger than 550px screen
+  \*-----------------------------------*/
+    /**
+   * responsive for larger than 550px screen
    */
     
     @media (min-width: 550px) {
@@ -489,8 +491,8 @@
             object-fit: cover;
         }
     }
-    /*
-    responsive for larger than 650px screen
+    /**
+   * responsive for larger than 650px screen
    */
     
     @media (min-width: 650px) {
@@ -579,8 +581,8 @@
             margin: 0;
         }
     }
-    /*
-   responsive for larger than 768px screen
+    /**
+   * responsive for larger than 768px screen
    */
     
     @media (min-width: 768px) {
@@ -591,26 +593,26 @@
             max-width: 800px;
         }
     }
-    /*
-    responsive for larger than 1024px screen
+    /**
+   * responsive for larger than 1024px screen
    */
     
     @media (min-width: 1024px) {
          :root {
-            /*
-        typography 
+            /**
+       * typography 
        */
             --fs-base: 1rem;
             --fs-1: 3rem;
         }
-        /*
-     REUSED STYLE 
+        /**
+     * REUSED STYLE 
      */
         .container {
             max-width: 1150px;
         }
-        /*
-      HEADER 
+        /**
+     * HEADER 
      */
         header .btn-group {
             display: none;
